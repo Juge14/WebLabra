@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.kuva {
+  background-color: rgb(255, 255, 255);
+  height: 250px;
+  width: 25%;
+  position: absolute;
+  top: 0px
+ 
+}
+
+.tiedot {
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(0, 0, 0);
+  height: 300px;
+  width: 25%;
+  position: absolute;
+ top: 250px
+}
+
+.tiivistelmä {
+    position:absolute;
+    left: 310px;
+    top: 0px;
+    border: 5px solid rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  height: 550px;
+  width: 75%;
+
+}
+
+.linkit {
+    position: absolute;
+    top: 550px;
+  background-color: rgb(192, 192, 192);
+  height: 50px;
+  width: 98%;
+
+}
+
+.tietoja {
+    position:absolute;
+    left: 10%;
+    top: 20%
+}
+
+</style>
+</head>
+<body>
+
+<div class="kuva">
+    <img src="WIN_20231030_12_30_08_Pro.jpg" alt="kuva" style="width: 100%;;height: 250px;">
+</div>
+
+<div class="tiedot">
+    <h1 style="font-size:200%; font-family: Verdana; position: absolute; left: 20%;">Tietoja</h1>
+    <div class="tietoja">
+         <p style="font-family: Verdana;">- Olen 16 vuotias</p>
+         <p style="font-family: Verdana;">- Asun palokassa</p>
+         <p style="font-family: Verdana;">- Opiskelen gradian ict alalla</p>
+    </div>
+    
+
+</div>
+
+<div class="tiivistelmä">
+    <h1 style="font-size: 200%; font-family: Verdana; position: absolute; left: 15%">Osaamisen tiivistelmä ja työkokemus</h1>
+    <p style="font-family: Verdana; font-size: 200%; position: absolute; top: 10%; left: 5%;">Olen iloinen ja reipas sekatyömies.
+     En ehkä osaa kaikkea, mutta enemmän haluan oppia uutta ja kokeilla uusia juttuja.
+     Olen erityisen näppärä käsistäni ja hiirikin pysyy hallussani.
+     Aikaisemmissa työkokemusta ei ole paljon kertynyt, mutta olen oppinut olemaan sekä tarkka että tehokas.
+     Opin nopeasti uudet asiat ja sopeudun hyvin uusiin työkavereihin.</p>
+
+</div>
+
+<div class="linkit">
+    <a style="font-size: 120%; font-family: Verdana; position: absolute; left: 7%; top: 25%;" href="https://www.instagram.com/">Instagram</a>
+    <a style="font-size: 120%; font-family: Verdana; position: absolute; left: 47%; top: 25%;" href="https://www.youtube.com/">Youtube</a>
+    <a style="font-size: 120%; font-family: Verdana; position: absolute; left: 87%; top: 25%;" href="https://www.facebook.com/?locale=fi_FI">Facebook</a>
+</div>
+
+</body>
+</html>
