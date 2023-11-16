@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.otsikko {
+    background-color: rgb(15, 2, 30);
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    position: absolute;
+    left: 0px;
+    opacity: 70%;
+}
+/* teksitn väri muutettu .sivu -luokkaan*/
+.sivu {
+    background-color: rgb(15, 2, 30);
+    width: 75%;
+    height: 700px;
+    text-align: center;
+    opacity: 70%;
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    color: aliceblue;
+    font-family: Arial;
+}
+ 
+.teksti1 {
+    font-family: Arial;
+    font-size: 125%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 45%;
+   
+}
+
+.teksti2 {
+    font-family: Arial;
+    font-size: 125%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 74%;
+   
+}
+
+.teksti3 {
+    font-family: Arial;
+    font-size: 125%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 17%;
+}
+ 
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+ 
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+ 
+body, html {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  scroll-behavior: smooth;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url(ravintola.jpg);
+
+  /* Full height */
+  height: 1100px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+</style>
+</head>
+<body>
+ 
+
+
+ 
+<div class="sivu">
+
+  <div class="otsikko" style="position: absolute; top: -320px; left: -160px; width: 134.4%;">
+    <br>
+    <h1>Lapintaika</h1>
+  </div>
+ 
+  <div class="teksti1" style="position: absolute; top: -320px; left: 120px;">
+    <p><a href="#Ruokalista">Ruokalista</a></p> <!--Tässä puuttui loppu tagit-->
+  </div>
+
+  <div class="teksti2" style="position: absolute; top: -320px; right: 20px;">
+  <p><a href="#Yhteystiedot">Yhteystiedot</a></p> <!--Tässä puuttui loppu tagit-->
+  </div>
+
+  <div class="teksti3" style="position: absolute; top: -320px; left: 435px">
+    <p><a class="active" href="tehtava11.html">Palaute</a></p>
+  </div>
+  <h2>Ruokalista</h2>
+  <p>Maanantai</p>
+  <p>Juusto-vihanneskeittoa ja kokin sämpylä Paistettua lohta, sinappikastiketta, tilliperunoita ja kasviksia Marjakiisseliä ja hunajakermavaahtoa</p>
+  <p>Tiistai</p>
+  <p>Kana-fetajustosalaattia ja kokin sämpylä Paistettua punakampelaa, pinaattikastiketta ja perunamuusia Pannukakkua, mansikkahilloa ja kermavaahtoa</p>
+  <p>Keskiviikko</p>
+  <p>Tomaatti-yrttikeittoa ja kokin sämpylä Kalkkunaleikettä, BBQ-kastiketta, riisiä ja kasviksia Omenapiirakkaa ja vaniljakastiketta</p>
+  <p>Torstai</p>
+  <p>Rapukeittoa ja kokin sämpylä Poronkäristystä, perunamuusia, puolukkahilloa ja suolakurkkuja Hedelmäsalaattia ja kinuskikastiketta</p>
+  <p>Perjantai</p>
+  <p>Savulohisalaatti ja kokin sämpylä Naudan paahtopaistia, punaviinikastiketta, kermaperunat ja kasviksia Suklaamousse</p>
+  <br>
+  <br>
+  <h2>Yhteystiedot ja aukioloajat:</h2>
+  <p>Ravintola Lapintaika, Ravintolakatu 2, 98765 LAPINMAA</p>
+  <p>Puh. (012) 345 6789 Sähköposti: varaukset@jokuposti.net</p>
+  <p>aukioloajat: ma - pe, 10:30 - 15:00</p>
+</div>
+   
+<div class="parallax"></div>
+
+</body>
+</html>
